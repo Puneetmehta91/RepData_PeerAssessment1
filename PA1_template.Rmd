@@ -38,7 +38,7 @@ plot(interval_mean, mean, type="l", xlab="Interval", col="red",
      ylab="Number of Steps",main="Average Number of Steps per Day by Interval" )
 ```
 
-## 5. The 5-minute interval that, on average, contains the maximum number of steps
+## 5. The 5-minute interval that, on average, contains the max number of steps
 ```{r}
 data_fin[which.max(data_fin$mean),1]
 ```
